@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'NasalizationRg-Regular';
+  src: url('NasalizationRg-Regular.woff') format('woff'),
+       url('NasalizationRg-Regular.ttf') format('truetype'),
+       url('NasalizationRg-Regular.svg#NasalizationRg-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nasalization-rg';
+  src: url('nasalization-rg.eot');
+  src: url('nasalization-rg.woff2') format('woff2'),
+       url('nasalization-rg.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'Onomber';
+  src: url('Onomber.eot');
+  src: url('Onomber.woff2') format('woff2'),
+       url('Onomber.woff') format('woff'),
+       url('Onomber.ttf') format('truetype'),
+       url('Onomber.svg#Onomber') format('svg'),
+       url('Onomber.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueLTStd-Md';
+  src: url('HelveticaNeueLTStd-Md.eot');
+  src: url('HelveticaNeueLTStd-Md.woff2') format('woff2'),
+       url('HelveticaNeueLTStd-Md.woff') format('woff'),
+       url('HelveticaNeueLTStd-Md.ttf') format('truetype'),
+       url('HelveticaNeueLTStd-Md.svg#HelveticaNeueLTStd-Md') format('svg'),
+       url('HelveticaNeueLTStd-Md.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

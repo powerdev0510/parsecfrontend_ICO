@@ -1,0 +1,484 @@
+@charset "utf-8";
+ 
+
+
+/* General -----------------------------*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.clearfix {
+    *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    clear: both;
+    content: "";
+    line-height: 0;
+}
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+html,
+body {
+    height: 100%
+}
+ 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ 
+a {
+    outline: none;
+}
+a img {
+    outline: none;
+}
+img {
+    border: none;
+}
+.hidden {
+    overflow: hidden;
+    display: none;
+    visibility: hidden;
+}
+/* Header ------------------------------*/
+
+oggle.ligth>div>div {
+    background-color: #fff;
+}
+.overlay {
+    z-index: 11;
+}
+.toggle {
+    z-index: 9;
+}
+.loading {
+    z-index: 10;
+}
+.menu {
+    z-index: 8;
+}
+.logo {
+    z-index: 7;
+}
+.cover {
+    z-index: 9;
+}
+.top {
+    z-index: 25;
+}
+.bottom {
+    z-index: 25;
+}
+.left {
+    z-index: 25;
+}
+.right {
+    z-index: 25;
+}
+.footer {
+    z-index: 0;
+}
+.content {
+    z-index: 3;
+}
+.loader {
+    display: none;
+}
+ 
+ 
+.cover {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+.transition {
+    display: none;
+    z-index: -1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    left: 0;
+}
+.transition>div {
+    position: absolute;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.transition.active {
+    z-index: 5;
+    display: block;
+}
+ 
+/* Social ------------------------------*/
+ 
+ 
+/* Scroll style ------------------------*/
+
+.modules.scrollview {
+    width: 100%;
+    height: 100%
+}
+.modules.scrollview .module {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.modules.scrollview .module .page {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.modules.scrollview .module .page .container-1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    background-image: url(../img/shared/fff.png);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.modules.scrollview .module .page .container-1 .container-2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    background-image: url(../img/shared/fff.png);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.modules.scrollview .module .page .container-1 .container-2 .image {
+    width: 100%;
+    height: 100%
+}
+.modules.scrollview .module .page .container-1 .container-2 .image .custom {
+    width: 100%;
+    height: 100%
+}
+.modules.scrollview .module .page .container-1 .container-2 .image .custom .img {
+    width: 100%;
+    height: 100%
+}
+.modules.scrollview .module .page .container-1 .container-2 .image .custom .content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* Preloader ---------------------------*/
+
+/* Content -----------------------------*/
+
+*,
+div,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+span,
+img,
+html {
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: geometricPrecision;
+}
+
+/* home -------------------------------*/
+
+/* Parallax Scene ----------------------*/
+
+
+
+
+
+.scene {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    
+    width: 100%;
+    height: 100%;
+}
+.layer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.layer .imatge {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    animation-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    animation-name: float;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes float {
+    0% {
+        transform: translate(0%, 0%);
+    }
+    100% {
+        transform: translate(100%, 100%);
+    }
+}
+.layer img {
+    width: 100%;
+}
+/* DUST DELANTE */
+
+#img-1 {
+    opacity: 0.8;
+    background: url('../images/dust-delante.png');
+    background-repeat: repeat;
+    animation-duration: 330s;
+    -webkit-animation-direction: normal;
+    /* Chrome, Safari, Opera */
+    
+    animation-direction: normal;
+}
+/* DUST MEDIO */
+
+#img-2 {
+    opacity: 1;
+    background: url('../images/dust-medio.png');
+    background-repeat: repeat;
+    animation-duration: 555s;
+    -webkit-animation-direction: normal;
+    /* Chrome, Safari, Opera */
+    
+    animation-direction: normal;
+}
+/* FONDO NEGRO ESTRELLAS GRISES */
+
+#img-3 {
+    opacity: 1;
+    background: url('../images/bg-dust.png');
+    background-repeat: repeat;
+    /*animation-duration: 800s;*/
+    
+    -webkit-animation: 800s ease-in-out infinite;
+    -webkit-animation-direction: normal;
+    /* Chrome, Safari, Opera */
+    
+    animation-direction: normal;
+}
+/* AZUL */
+
+.color1 {
+    -webkit-animation: color1 10s ease-in-out infinite;
+}
+@keyframes color1 {
+    0% {
+        -webkit-transform: rotate(0) translateY(0);
+    }
+    25% {
+        -webkit-transform: rotate(-3deg) translateY(-25px) translateX(-25px);
+    }
+    50% {
+        -webkit-transform: rotate(-3deg) translateY(-50px) translateX(-60px);
+    }
+    75% {
+        -webkit-transform: rotate(-3deg) translateY(-25px) translateX(-25px);
+    }
+    100% {
+        -webkit-transform: rotate(0) translateY(0);
+    }
+}
+/* LILA */
+
+.colors {
+    left: 50% !important;
+    top: 50% !important;
+}
+.color2 {
+    -webkit-animation: color2 18s ease-in-out infinite;
+}
+@keyframes color2 {
+    50% {
+        -webkit-transform: rotate(8deg) scale(0.7) translateY(30px) translateX(60px);
+    }
+}
+/* ROJO */
+
+.color3 {
+    -webkit-animation: color3 6s ease-in-out infinite;
+}
+@keyframes color3 {
+    50% {
+        -webkit-transform: rotate(-20deg) translateY(-30px) translateX(45px);
+    }
+}
+/* VERDE */
+
+.color4 {
+    -webkit-animation: color4 12s ease-in-out infinite;
+}
+@keyframes color4 {
+    50% {
+        -webkit-transform: rotate(8deg) scale(1.2) translateY(10px) translateX(-10px);
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .scene{
+        display: none;
+    }
+}

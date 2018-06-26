@@ -1,0 +1,36 @@
+body#faq_page{
+   	width: 100%;
+	float: left;
+	height: auto;
+	min-height: 600px;
+	background-image: url('https://psf-dev.artplant-dev.net/static/media/landing-bg-roadmap@1x.4a60427c.jpg');
+	background-size: cover;
+	color: #fff;
+        font-family: proxima-nova, sans-serif;
+}
+header#headline-wrapper{
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0;
+    border: none;
+    padding: 0;
+    width: 100%;
+    background-color: transparent;
+}
+.fa {
+    color: white;
+}
+a {
+    color: #fff;
+}
+a.category_preview_view_more{
+    color:#fff;
+}
+a:focus, a:hover {
+    color:#fff;
+}
+a.category_preview_view_more{
+    color:#fff;
+}

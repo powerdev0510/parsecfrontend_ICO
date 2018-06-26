@@ -1,0 +1,431 @@
+@media (min-width: 1920px) {
+    
+    .navbar-nav {
+        margin-right: 100px;
+        float: right;
+    }
+}
+
+@media (max-width: 1366px) {
+    .section-1 .right-box h1 {
+        font-size: 36px;
+    }
+    .section-1 .video-box {
+        margin-top: 20px;
+        min-height: 300px;
+    }
+    #timer div {
+        font-size: 40px;
+        min-width: 95px;
+        padding: 15px 10px;
+    }
+    #timer div:after {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .navbar-nav {
+        margin-top: 0px;
+        float: left;
+        width: 100%;
+    }
+    .navbar-brand {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .navbar-brand>img {
+        display: inline-block;
+    }
+    .navbar-header {
+        width: 100%;
+    }
+    .navbar-default .navbar-nav>li>a {
+        padding: 15px 10px;
+        font-size: 14px;
+    }
+    .navbar-nav>li {
+        float: none;
+        display: inline-block;
+    }
+    .left-box-inner {
+        padding-right: 0px;
+    }
+    .rwd-table {
+        width: 100%;
+    }
+    .clientLogo {
+        width: 25%;
+    }
+    .whitepaperLeft,
+    .whitepaperRight {
+        width: 50%;
+        text-align: center
+    }
+}
+
+@media (max-width: 1024px) {
+    .navbar-brand {
+        text-align: center;
+        width: 100%;
+        float: left;
+    }
+    .navbar-header {
+        width: 100%;
+    }
+    .navbar-brand>img {
+        display: inline-block;
+    }
+    .navbar-default .navbar-nav {
+        text-align: center;
+    }
+    .navbar-default .navbar-nav>li {
+        float: none;
+        display: inline-block;
+    }
+    .navbar-default .navbar-nav>li>a {
+        font-size: 13px;
+    }
+    .navbar-nav {
+        margin-top: 0px;
+        padding-bottom: 11px;
+    }
+    .left-box,
+    .right-wrapper {
+        width: 100%;
+    }
+    .section-1 .video-box {
+        min-height: 350px;
+    }
+    .section-1 .right-box {
+        width: 75%;
+        margin-top: 50px;
+    }
+    .left-box-inner {
+        padding: 0px;
+    }
+    .section-1 .right-box .coin-img {
+        width: 90%;
+        top: -140px;
+        text-align: center;
+        right: auto;
+        left: auto;
+    }
+    .section-1 .right-box .coin-img img {
+        max-width: 200px;
+        display: inline-block;
+    }
+    .section-1 .right-box {
+        width: 100%;
+    }
+    #timer div {
+        font-size: 55px;
+        min-width: 125px;
+        padding: 20px;
+    }
+    #timer div:after {
+        font-size: 55px;
+    }
+    .parsecLeft {
+        width: 100%;
+    }
+    .navbar-brand {
+        padding-top: 15px;
+    }
+    section {
+        padding: 250px 0px !important;
+    }
+    .backstorySection::before {
+        right: 10%;
+        top: -350px;
+    }
+    .backstorySection {
+        margin-top: 350px;
+    }
+    .btnCenter::before {
+        width: 36%;
+    }
+    .btnCenter::after {
+        width: 34%;
+    }
+    .floatingButton {
+        right: 50%;
+        margin-right: -28px;
+    }
+    .navbar-nav {
+        padding-bottom: 0px;
+    }
+}
+
+@media (max-width: 991px) {
+    .sectionTitle {
+        text-align: center;
+    }
+    .clientLogo {
+        width: 33.33%;
+    }
+    .mapwrapper {
+        width: 80%;
+    }
+}
+
+@media (max-width: 950px) {
+    .navbar-collapse {
+        margin: 0px;
+        padding: 0px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        padding: 15px 6px;
+    }
+    .navbar-default .navbar-nav>li>a::after {
+        left: -6px;
+    }
+    .navbar-default .navbar-nav>li:nth-child(8) a::after,
+    .navbar-default .navbar-nav>li:nth-child(9) a::after {
+        display: none;
+    }
+}
+
+@media (max-width: 860px) {
+    .whitepaperLeft {
+        margin-bottom: 50px;
+    }
+    .whitepaperLeft,
+    .whitepaperRight {
+        width: 100%;
+    }
+    footer .col-sm-2 {
+        width: 100% !important;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    footer .col-xs-12 {
+        width: 50%;
+        text-align: center;
+    }
+    .ftrlinks li {
+        list-style: none;
+        width: 50%;
+    }
+    footer .supportSection {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .socialmedia {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .socialmedia a {
+        float: none;
+        display: inline-block;
+    }
+    .copyright {
+        text-align: center;
+        width: 100%;
+    }
+    .backstorySection::before {
+        width: 400px;
+        height: 100%;
+        top: -160px;
+    }
+    .backstorySection {
+        margin-top: 160px;
+    }
+    .videoFramewrap {
+        width: 100%;
+        max-width: 100%;
+    }
+    .tm60 {
+        margin-bottom: 0px;
+    }
+    .mapwrapper span {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .flagicon {
+        right: 120px;
+        top: 20px;
+        left: auto;
+    }
+    .navbar-brand {
+        width: auto;
+        float: left;
+    }
+    .navbar-brand img {
+        max-width: 200px;
+    }
+    .navbar-header {
+        margin: 0px;
+        padding: 15px 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-brand {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .navbar-collapse {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 100;
+        border: none;
+    }
+    .navbar-default {
+        border: none;
+    }
+    .nav>li {
+        width: 100%;
+        float: left;
+    }
+    .navbar-default .navbar-nav>li>a {
+        padding: 10px;
+    }
+    .navbar-default .navbar-nav>li>a::after {
+        display: none;
+    }
+    .navbar-toggle {
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+        -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
+        animation: neon3 1.5s ease-in-out infinite alternate;
+    }
+    .navbar-toggle:hover {
+        background-color: #fff;
+        -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
+        animation: neon3 1.5s ease-in-out infinite alternate;
+    }
+    .navbar-default .navbar-nav>li:hover a:before {
+        bottom: -25px;
+    }
+    @-webkit-keyframes neon3 {
+        from {
+            box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+        }
+        to {
+            box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+        }
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .navBTN a {
+        background-size: contain;
+    }
+    .mapwrapper .mapleft,
+    .mapwrapper .mapcenter,
+    .mapwrapper .mapright {
+        font-size: 14px;
+    }
+    .mapwrapper span {
+        left: -90px;
+    }
+    .mobileView {
+        display: block;
+    }
+    .desktopview {
+        display: none;
+    }
+    .signupBlank {
+        background-size: 100% 100%;
+    }
+    .ftrlinks li {
+        width: 100%;
+    }
+    .sectiontop-40{ margin: 0px;}
+    section{ overflow: hidden;}
+}
+
+@media (max-width: 640px) {
+    .clientLogo {
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .mapwrapper {
+        width: 100%;
+    }
+    .mapwrapper .mapleft,
+    .mapwrapper .mapcenter,
+    .mapwrapper .mapright {
+        font-size: 12px;
+    }
+    .mapwrapper .mapcenter {
+        margin-left: -50px;
+    }
+    .signupLeft,
+    .signupRight {
+        width: 100%;
+    }
+    .signupLeft {
+        margin-bottom: 15px;
+    }
+    section {
+        padding: 140px 0px !important;
+    }
+    #timer div,
+    #timer div:after {
+        font-size: 30px;
+        padding: 18px 10px;
+    }
+    .section-1 .right-box h1 {
+        font-size: 29px;
+    }
+    .section-1 .right-box p {
+        font-size: 18px;
+    }
+    .section-1 .right-box .sub-title {
+        font-size: 22px;
+    }
+    .backstorySection {
+        margin-top: 180px;
+    }
+    .backstorySection::before {
+        top: -200px;
+    }
+    .signupBlank, .backstorySection{
+        padding: 50px 20px;
+        text-align: center;
+    }
+    footer .col-xs-12 {
+        width: 100%;
+    }
+    .backstorySection::before {
+        right: -40px;
+    }
+    .exploreBTN{ background-size: contain; width: 260px;}
+    
+}
+
+@media (max-width: 400px) {
+    .section-1 .right-box {
+        float: left;
+    }
+    .timer-box {
+        margin: 0px;
+    }
+    #timer div {
+        width: 50%;
+        float: left;
+        min-width: 50%;
+    }
+    #timer div:after {
+        top: 4px;
+    }
+    #timer div:nth-child(1):after {
+        display: none;
+    }
+    #timer div:nth-child(3):after {
+        display: none;
+    }
+    .clientLogo {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
